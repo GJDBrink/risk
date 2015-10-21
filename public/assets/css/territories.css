@@ -1,0 +1,189 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.north-america {
+    width: 430px;
+}
+
+.north-america div, .europe div {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.clear {
+    clear: both;
+    padding: 0;
+    border: none;
+}
+
+.alaska {
+    width: 100px;
+    height: 100px;
+    background-color: lightyellow;
+    float: left;
+}
+
+.north-west {
+    width: 150px;
+    height: 70px;
+    background-color: lightyellow;
+    margin-top: 30px;
+    float:left;
+}
+
+.greenland {
+    width: 100px;
+    height: 100px;
+    background-color: lightyellow;
+    float:left;
+    margin-left: 50px;
+}
+
+.alberta {
+    width: 100px;
+    height: 80px;
+    background-color: lightyellow;
+    float: left;
+}
+
+.ontario {
+    width: 100px;
+    height: 80px;
+    background-color: lightyellow;
+    float: left;
+}
+
+.quebec {
+    width: 100px;
+    height: 80px;
+    background-color: lightyellow;
+    float: left;
+    margin-right: 30px;
+}
+
+.western-us {
+    width: 100px;
+    height: 80px;
+    background-color: lightyellow;
+    float: left;
+}
+
+.eastern-us {
+    width: 100px;
+    height: 80px;
+    background-color: lightyellow;
+    float: left;
+
+}
+
+.central-america {
+    width: 100px;
+    height: 80px;
+    background-color: lightyellow;
+    float: left;
+}
+
+.south-america {
+    width: 300px;
+}
+
+.venezuela {
+    width: 100px;
+    height: 80px;
+    margin-left: 50px;
+    margin-right: 150px;
+    background-color: orangered;
+    float: left;
+}
+
+.peru {
+    width: 100px;
+    height: 80px;
+    background-color: orangered;
+    float: left;
+}
+
+.brazil {
+    width: 100px;
+    height: 80px;
+    background-color: orangered;
+    float: left;
+    margin-right: 100px;
+}
+
+.argentina {
+    width: 100px;
+    height: 80px;
+    background-color: orangered;
+    float: left;
+    margin-left: 50px;
+}
+
+.west {
+    float:left;
+}
+
+.middle {
+    float: left;
+}
+
+.europe {
+    margin-top: 35px;
+    width: 300px;
+}
+
+.iceland {
+    margin-left: 15px;
+    height: 40px;
+    width: 80px;
+    background-color: lightblue;
+    float: left;
+}
+
+.scandinavia {
+    margin-left: 15px;
+    height: 100px;
+    width: 80px;
+    background-color: lightblue;
+    float: left;
+    margin-right: 100px;;
+}
+.great-britain {
+    float: left;
+    height: 70px;
+    width: 60px;
+    background-color: lightblue;
+}
+
+.north-europe {
+    margin-left: 15px;
+    height: 80px;;
+    width: 80px;
+    background-color: lightblue;
+    float: left;
+
+}
+
+.east-europe {
+    height: 80px;;
+    width: 80px;
+    background-color: lightblue;
+    float: left;
+}
+
+.west-europe {
+    height: 80px;;
+    width: 80px;
+    background-color: lightblue;
+    float: left;
+}
+
+.south-europe {
+    height: 80px;;
+    width: 80px;
+    background-color: lightblue;
+    float: left;
+}
