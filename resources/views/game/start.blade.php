@@ -14,6 +14,23 @@
         <link href="{{ asset('/assets/css/bootstrap.min.css') }}" rel="stylesheet" />
         <link href="{{ asset('/assets/css/territories.css') }}" rel="stylesheet" />
 
+        <script src="{{ asset('assets/js/jquery-1.11.3.min.js') }}"></script>
+
+        <script>
+            $(document).ready(function(){
+                $('#start').click(function(){
+                    console.debug('init game');
+                    $('#msgCentre').html('Choose a country');
+                })
+
+                $('.territory').click(function(){
+                   console.debug('choose territory');
+                    console.debug($(this).attr('id'));
+
+                    $(this).addClass('territory-selected');
+                });
+            });
+        </script>
 
     </head>
 
@@ -26,7 +43,13 @@
 
         <div class="row">
 
-            <button type="button" class="btn btn-info">Start the game</button>
+            <input type="text" name="players" id="players" class="form-control" style="width: 40px;">
+
+            <button type="button" class="btn btn-info" id="start">Start the game</button>
+
+        </div>
+
+        <div id="msgCentre">
 
         </div>
 
@@ -36,41 +59,41 @@
 
             <div class="north-america">
 
-                <div class="alaska">
+                <div class="territory alaska" id="alaska">
                     Alaska
                 </div>
 
-                <div class="north-west">
+                <div class="territory north-west" id="north-west">
                     North-West Territories
                 </div>
 
-                <div class="greenland">
+                <div class="territory greenland" id="greenland">
                     Greenland
                 </div>
 
-                <div class="alberta">
+                <div class="territory alberta" id="alberta">
                     Alberta
                 </div>
 
-                <div class="ontario">
+                <div class="territory ontario" id="ontario">
                     Ontario
                 </div>
 
-                <div class="quebec">
+                <div class="territory quebec" id="quebec">
                     Quebec
                 </div>
 
-                <div class="western-us">
+                <div class="territory western-us" id="western-us">
                     Western United States
                 </div>
 
-                <div class="eastern-us">
+                <div class="territory eastern-us" id="eastern-us">
                     Eastern United Staetes
                 </div>
 
                 <div class="clear"></div>
 
-                <div class="central-america">
+                <div class="territory central-america" id="central-america">
                     Central America
                 </div>
 
@@ -80,19 +103,19 @@
 
             <div class="south-america">
 
-                <div class="venezuela">
+                <div class="territory venezuela" id="venezuela">
                     Venezuela
                 </div>
 
-                <div class="peru">
+                <div class="territory peru" id="peru">
                     Peru
                 </div>
 
-                <div class="brazil">
+                <div class="territory brazil" id="brazil">
                     Brazil
                 </div>
 
-                <div class="argentina">
+                <div class="territory argentina" id="argentina">
                     Argentina
                 </div>
 
@@ -102,31 +125,31 @@
         <div class="middle">
 
             <div class="europe">
-                <div class="iceland">
+                <div class="territory iceland" id="iceland">
                     Iceland
                 </div>
 
-                <div class="scandinavia">
+                <div class="territory scandinavia" id="scandinavia">
                     Scandinavia
                 </div>
 
-                <div class="great-britain">
+                <div class="territory great-britain" id="great-britain">
                     Great Britain
                 </div>
 
-                <div class="north-europe">
+                <div class="territory north-europe" id="north-europe">
                     North Europe
                 </div>
 
-                <div class="east-europe">
+                <div class="territory east-europe" id="east-europe">
                     Eastern Euope
                 </div>
 
-                <div class="west-europe">
+                <div class="territory west-europe" id="west-europe">
                     West Europe
                 </div>
 
-                <div class="south-europe">
+                <div class="territory south-europe" id="south-europa">
                     South Europe
                 </div>
 

@@ -3,11 +3,12 @@ body {
 }
 
 
+
 .north-america {
     width: 430px;
 }
 
-.north-america div, .europe div {
+.north-america .territory, .europe .territory {
     border: 1px solid #ccc;
     text-align: center;
     padding-top: 15px;
@@ -186,4 +187,8 @@ body {
     width: 80px;
     background-color: lightblue;
     float: left;
+}
+
+.territory-selected {
+    background-color: #0000C2;
 }
